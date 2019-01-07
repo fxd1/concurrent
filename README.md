@@ -1,7 +1,7 @@
 concurrent
 summarize some common concurrent libraries
 
-并发调用
+并发调用  https://github.com/fxd1/concurrent/blob/master/src/main/java/com/qunar/fxd/concurrent/ConcurrentInvoker.java
 场景：当需要对多个无关的异步调用的结果进行合并或归约时。这就好比我们自己组装电脑的情形：首先我们在不同商家订购不同的电脑配件，包括CPU、内存条、主板、机箱、显示器等，这就好比我们发起了多个无关的异步调用；当这些配件依次送达后，我们自己动手组装，这就可以类比为合并和规约的过程。 对于程序而言， 主线程 发起 A、B、C 等多个异步调用， 最终将三者的结果进行合并。会有两者情况，主线程阻塞等待最终合并结果，第二种，注册回调函数，等多个异步调用结束后执行callback逻辑
 
 对于第一种情况， 多个异步调用， 同步等待， 实现手段多种多样
