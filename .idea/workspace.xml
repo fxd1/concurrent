@@ -2,293 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="312bf9f6-97e0-47f7-a4db-b176e7d8e376" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/CheckSubarraySum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/SubarraySumEqualsK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/TwoSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/SingleNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/SingleNumber2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qunar/fxd/niuke/Solution4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qunar/fxd/niuke/Solution4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qunar/fxd/ant/test3/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qunar/fxd/concurrent/ConcurrentInvokers$TimeoutCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qunar/fxd/concurrent/ConcurrentInvokers$TimeoutCallback.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qunar/fxd/concurrent/ConcurrentInvokers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qunar/fxd/concurrent/ConcurrentInvokers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qunar/fxd/ant/BitMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qunar/fxd/ant/MinStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qunar/fxd/ant/Singleton$SingletonHolder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qunar/fxd/ant/Singleton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qunar/fxd/ant/Singleton1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qunar/fxd/ant/niuke/Solution1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qunar/fxd/ant/niuke/Solution2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qunar/fxd/ant/sort/BubbleSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qunar/fxd/ant/sort/HeapSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qunar/fxd/ant/sort/HeapSort1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qunar/fxd/ant/sort/InsertSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qunar/fxd/ant/sort/MergeSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qunar/fxd/ant/sort/QuickSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qunar/fxd/ant/sort/SelectionSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qunar/fxd/ant/sort/TopK.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qunar/fxd/ant/test1/Print1$ThreadA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qunar/fxd/ant/test1/Print1$ThreadB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qunar/fxd/ant/test1/Print1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qunar/fxd/ant/test1/Print1Semaphore$ThreadA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qunar/fxd/ant/test1/Print1Semaphore$ThreadB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qunar/fxd/ant/test1/Print1Semaphore.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qunar/fxd/ant/test2/Print2$ThreadA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qunar/fxd/ant/test2/Print2$ThreadB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qunar/fxd/ant/test2/Print2$ThreadC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qunar/fxd/ant/test2/Print2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qunar/fxd/ant/test2/SemphoreTest$ThreadA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qunar/fxd/ant/test2/SemphoreTest$ThreadB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qunar/fxd/ant/test2/SemphoreTest$ThreadC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qunar/fxd/ant/test2/SemphoreTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qunar/fxd/ant/test2/TestSemaphore$ThB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qunar/fxd/ant/test2/TestSemaphore$ThreadA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qunar/fxd/ant/test2/TestSemaphore.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qunar/fxd/ant/test3/Consumer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qunar/fxd/ant/test3/DataItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qunar/fxd/ant/test3/Producer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qunar/fxd/concurrent/ConcurrentInvoker$Breakpoint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qunar/fxd/concurrent/ConcurrentInvoker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qunar/fxd/concurrent/ConcurrentInvokerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/qunar/fxd/concurrent/ConcurrentInvokerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qunar/fxd/concurrent/ConcurrentInvokers$TimeoutCallback.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qunar/fxd/concurrent/ConcurrentInvokers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qunar/fxd/concurrent/DisposableBlocker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qunar/fxd/init/CacheTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qunar/fxd/init/CacheTest$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qunar/fxd/init/CacheTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qunar/fxd/init/Parent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qunar/fxd/init/SubClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/common.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/classes/test/12.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/classes/test/13.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/classes/test/14.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/classes/test/15.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/classes/test/16.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/classes/test/17.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/classes/test/18.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/classes/test/19.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/classes/test/20.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/classes/test/21.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/classes/test/22.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/classes/test/23.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/classes/test/24.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/classes/test/25.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/classes/test/26.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/classes/test/27.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/classes/test/28.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/classes/test/29.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/classes/test/30.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/classes/test/31.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/classes/test/32.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/classes/test/33.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/classes/test/34.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/classes/test/35.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/classes/test/36.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/classes/test/37.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/classes/test/38.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/classes/test/39.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/classes/test/40.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/classes/test/41.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/classes/test/42.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/common.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/classes/test/12.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/classes/test/13.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/classes/test/14.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/classes/test/15.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/classes/test/16.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/classes/test/17.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/classes/test/18.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/classes/test/19.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/classes/test/20.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/classes/test/21.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/classes/test/22.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/classes/test/23.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/classes/test/24.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/classes/test/25.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/classes/test/26.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/classes/test/27.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/classes/test/28.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/classes/test/29.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/classes/test/30.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/classes/test/31.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/classes/test/32.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/classes/test/33.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/classes/test/34.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/classes/test/35.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/classes/test/36.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/classes/test/37.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/classes/test/38.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/classes/test/39.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/classes/test/40.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/classes/test/41.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/classes/test/42.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/common.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/classes/test/12.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/classes/test/13.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/classes/test/14.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/classes/test/15.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/classes/test/16.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/classes/test/17.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/classes/test/18.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/classes/test/19.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/classes/test/20.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/classes/test/21.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/classes/test/22.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/classes/test/23.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/classes/test/24.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/classes/test/25.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/classes/test/26.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/classes/test/27.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/classes/test/28.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/classes/test/29.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/classes/test/30.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/classes/test/31.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/classes/test/32.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/classes/test/33.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/classes/test/34.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/classes/test/35.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/classes/test/36.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/classes/test/37.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/classes/test/38.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/classes/test/39.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/classes/test/40.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/classes/test/41.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/classes/test/42.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/common.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/12.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/13.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/14.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/15.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/16.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/17.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/18.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/19.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/20.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/21.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/22.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/23.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/24.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/25.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/26.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/27.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/28.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/29.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/30.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/31.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/32.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/33.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/34.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/35.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/36.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/37.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/38.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/39.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/40.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/41.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/42.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/common.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/12.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/13.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/14.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/15.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/16.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/17.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/18.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/19.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/20.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/21.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/22.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/23.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/24.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/25.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/26.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/27.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/28.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/29.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/30.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/31.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/32.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/33.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/34.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/35.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/36.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/37.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/38.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/39.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/40.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/41.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/42.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/common.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/12.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/13.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/14.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/15.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/16.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/17.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/18.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/19.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/20.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/21.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/22.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/23.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/24.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/25.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/26.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/27.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/28.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/29.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/30.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/31.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/32.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/33.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/34.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/35.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/36.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/37.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/38.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/39.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/40.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/41.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/classes/test/42.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/common.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/common.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/target/test-classes/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/CheckSubarraySum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/CheckSubarraySum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qunar/fxd/leetcode/SubarraySumEqualsK.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qunar/fxd/leetcode/SubarraySumEqualsK.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -318,7 +36,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="3" />
-          <entry key="java" value="127" />
+          <entry key="java" value="132" />
           <entry key="txt" value="1" />
           <entry key="xml" value="1" />
         </counts>
@@ -326,20 +44,20 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="3" />
-          <entry key="JAVA" value="127" />
+          <entry key="JAVA" value="132" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="11389" />
+          <entry key="java" value="12334" />
           <entry key="xml" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="11389" />
+          <entry key="JAVA" value="12334" />
           <entry key="XML" value="20" />
         </counts>
       </usages-collector>
@@ -350,7 +68,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/niuke/Solution4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
+            <state relative-caret-position="187">
               <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
             </state>
           </provider>
@@ -359,17 +77,56 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/SubarraySumEqualsK.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
+            <state relative-caret-position="199">
               <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-end-line="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/CheckSubarraySum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+            <state relative-caret-position="536">
+              <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/SingleNumber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="59">
+              <caret line="5" column="25" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/SingleNumber2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/concurrent/DisposableBlocker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/concurrent/ConcurrentInvokers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -404,51 +161,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1529">
               <caret line="3587" column="24" selection-start-line="3587" selection-start-column="24" selection-end-line="3587" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/niuke/TreeNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="e#128#129#0" expanded="true" />
-                <element signature="e#151#152#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/niuke/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/niuke/Solution2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/niuke/Solution3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#205#214#0" expanded="true" />
-                <element signature="e#266#275#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -524,6 +236,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/TwoSum.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/SubarraySumEqualsK.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/CheckSubarraySum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/SingleNumber.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/SingleNumber2.java" />
       </list>
     </option>
   </component>
@@ -645,6 +359,17 @@
               <item name="fxd" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="qunar" type="462c0819:PsiDirectoryNode" />
+              <item name="fxd" type="462c0819:PsiDirectoryNode" />
+              <item name="niuke" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -657,7 +382,7 @@
     <property name="SearchEverywhereHistoryKey" value="{&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552293837973" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552304483699" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -687,13 +412,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SubarraySumEqualsK">
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qunar.fxd.ant.sort.MergeSort" />
+  <component name="RunManager" selected="Application.SingleNumber2">
+    <configuration name="CheckSubarraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qunar.fxd.leetcode.CheckSubarraySum" />
       <module name="common" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.qunar.fxd.ant.sort.*" />
+          <option name="PATTERN" value="com.qunar.fxd.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -701,12 +426,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qunar.fxd.ant.niuke.Solution1" />
+    <configuration name="SingleNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qunar.fxd.leetcode.SingleNumber" />
       <module name="common" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.qunar.fxd.ant.niuke.*" />
+          <option name="PATTERN" value="com.qunar.fxd.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingleNumber2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qunar.fxd.leetcode.SingleNumber2" />
+      <module name="common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qunar.fxd.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -740,33 +478,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TopK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qunar.fxd.ant.sort.TopK" />
-      <module name="common" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.qunar.fxd.ant.sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.MergeSort" />
-      <item itemvalue="Application.TopK" />
-      <item itemvalue="Application.Solution1" />
       <item itemvalue="Application.Solution2" />
       <item itemvalue="Application.SubarraySumEqualsK" />
+      <item itemvalue="Application.CheckSubarraySum" />
+      <item itemvalue="Application.SingleNumber" />
+      <item itemvalue="Application.SingleNumber2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SingleNumber2" />
+        <item itemvalue="Application.SingleNumber" />
+        <item itemvalue="Application.CheckSubarraySum" />
         <item itemvalue="Application.SubarraySumEqualsK" />
         <item itemvalue="Application.Solution2" />
-        <item itemvalue="Application.Solution1" />
-        <item itemvalue="Application.TopK" />
-        <item itemvalue="Application.MergeSort" />
       </list>
     </recent_temporary>
   </component>
@@ -795,18 +520,17 @@
       <workItem from="1551771651493" duration="3272000" />
       <workItem from="1551874811549" duration="7795000" />
       <workItem from="1551935128166" duration="1654000" />
-      <workItem from="1552271442933" duration="12739000" />
+      <workItem from="1552271442933" duration="16668000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73306000" />
+    <option name="totallyTimeSpent" value="77235000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17305644" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17305644" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -815,12 +539,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25544554" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.21485148" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25544554" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.21485148" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32970297" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.46039605" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -920,6 +644,18 @@
           <properties />
           <option name="timeStamp" value="17" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/CheckSubarraySum.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/CheckSubarraySum.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -933,23 +669,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/ant/test3/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="96" column="36" lean-forward="true" selection-start-line="96" selection-start-column="36" selection-end-line="96" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/ant/test3/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="34" column="8" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="212">
@@ -1034,23 +753,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/concurrent/ConcurrentInvokers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/concurrent/DisposableBlocker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/ant/BitMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1107,13 +809,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/concurrent/ConcurrentInvoker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -1288,13 +983,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/niuke/Solution4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/BitSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="101">
@@ -1316,17 +1004,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/concurrent/DisposableBlocker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/concurrent/ConcurrentInvokers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/concurrent/ConcurrentInvoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/niuke/Solution4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/SubarraySumEqualsK.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
+        <state relative-caret-position="199">
           <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-end-line="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/CheckSubarraySum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+        <state relative-caret-position="536">
+          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/SingleNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/SingleNumber2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
         </state>
       </provider>
     </entry>
