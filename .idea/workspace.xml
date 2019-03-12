@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="312bf9f6-97e0-47f7-a4db-b176e7d8e376" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/MaxProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/Shuffle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/productExceptSelf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/AddTwoNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/LongestCommonPrefix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/LongestPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/MergeTwoLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/isPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/reverseInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/romanToInt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/SingleNumber3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/SingleNumber3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qunar/fxd/leetcode/SingleNumber2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qunar/fxd/leetcode/SingleNumber2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/MaxProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/MaxProduct.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,7 +41,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="3" />
-          <entry key="java" value="137" />
+          <entry key="java" value="148" />
           <entry key="txt" value="1" />
           <entry key="xml" value="1" />
         </counts>
@@ -45,20 +49,20 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="3" />
-          <entry key="JAVA" value="137" />
+          <entry key="JAVA" value="148" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="13300" />
+          <entry key="java" value="16538" />
           <entry key="xml" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="13300" />
+          <entry key="JAVA" value="16538" />
           <entry key="XML" value="20" />
         </counts>
       </usages-collector>
@@ -67,107 +71,106 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/SubarraySumEqualsK.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/AddTwoNumbers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="556">
-              <caret line="38" column="21" lean-forward="true" selection-start-line="38" selection-end-line="39" />
+            <state relative-caret-position="277">
+              <caret line="19" column="49" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="19" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/CheckSubarraySum.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/LongestPalindrome.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="536">
-              <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+            <state relative-caret-position="360">
+              <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/SingleNumber.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/reverseInt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
-              <caret line="5" column="25" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/SingleNumber2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="7" column="26" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/SingleNumber3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+            <state relative-caret-position="75">
+              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="21" selection-end-column="19" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#474#475#0" expanded="true" />
+                <element signature="e#522#523#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/Shuffle.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/isPalindrome.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="48" column="51" selection-start-line="48" selection-start-column="51" selection-end-line="48" selection-end-column="51" />
+            <state relative-caret-position="93">
+              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="24" selection-end-column="20" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#118#119#0" expanded="true" />
-                <element signature="e#147#148#0" expanded="true" />
-                <element signature="e#328#329#0" expanded="true" />
-                <element signature="e#356#357#0" expanded="true" />
+                <element signature="e#592#593#0" expanded="true" />
+                <element signature="e#643#644#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/productExceptSelf.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/romanToInt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+            <state relative-caret-position="32">
+              <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="25" selection-end-column="19" />
+              <folding>
+                <element signature="e#1577#1578#0" expanded="true" />
+                <element signature="e#1632#1633#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/LongestCommonPrefix.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="82">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="22" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/MaxProduct.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/MergeTwoLists.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="3" column="61" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
+            <state relative-caret-position="573">
+              <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="378" column="20" selection-start-line="378" selection-start-column="20" selection-end-line="378" selection-end-column="20" />
-              <folding>
-                <element signature="e#13713#13714#0" expanded="true" />
-                <element signature="e#13768#13769#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="204">
+              <caret line="62" column="38" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/TwoSum.java">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/String.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="21" selection-end-column="20" />
+            <state relative-caret-position="340">
+              <caret line="1957" column="18" selection-start-line="1957" selection-start-column="18" selection-end-line="1957" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/ListNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#110#111#0" expanded="true" />
+                <element signature="e#133#134#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -196,14 +199,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/qunar/fxd/init/Parent.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/qunar/fxd/concurrent/ConcurrentInvokerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qunar/fxd/init/CacheTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qunar/fxd/ant.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qunar/fxd/ant/MinStack.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qunar/fxd/ant/Singleton.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qunar/fxd/ant/Singleton1.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qunar/fxd/ant/特殊图.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qunar/fxd/ant/test3/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qunar/fxd/ant/test3/DataItem.java" />
@@ -247,6 +242,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/Shuffle.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/productExceptSelf.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/MaxProduct.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/ListNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/AddTwoNumbers.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/LongestPalindrome.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/reverseInt.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/isPalindrome.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/romanToInt.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/LongestCommonPrefix.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/MergeTwoLists.java" />
       </list>
     </option>
   </component>
@@ -284,8 +287,8 @@
     <option name="jreName" value="1.8" />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1280" />
-    <option name="height" value="800" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -391,7 +394,7 @@
     <property name="SearchEverywhereHistoryKey" value="{&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552306942257" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552385823744" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -421,9 +424,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Shuffle">
-    <configuration name="CheckSubarraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qunar.fxd.leetcode.CheckSubarraySum" />
+  <component name="RunManager" selected="Application.LongestCommonPrefix">
+    <configuration name="LongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qunar.fxd.leetcode.LongestCommonPrefix" />
       <module name="common" />
       <extension name="coverage">
         <pattern>
@@ -435,8 +438,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Shuffle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qunar.fxd.leetcode.Shuffle" />
+    <configuration name="LongestPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qunar.fxd.leetcode.LongestPalindrome" />
       <module name="common" />
       <extension name="coverage">
         <pattern>
@@ -448,8 +451,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingleNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qunar.fxd.leetcode.SingleNumber" />
+    <configuration name="isPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qunar.fxd.leetcode.isPalindrome" />
       <module name="common" />
       <extension name="coverage">
         <pattern>
@@ -461,8 +464,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingleNumber2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qunar.fxd.leetcode.SingleNumber2" />
+    <configuration name="reverseInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qunar.fxd.leetcode.reverseInt" />
       <module name="common" />
       <extension name="coverage">
         <pattern>
@@ -474,8 +477,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingleNumber3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qunar.fxd.leetcode.SingleNumber3" />
+    <configuration name="romanToInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qunar.fxd.leetcode.romanToInt" />
       <module name="common" />
       <extension name="coverage">
         <pattern>
@@ -488,19 +491,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CheckSubarraySum" />
-      <item itemvalue="Application.SingleNumber" />
-      <item itemvalue="Application.SingleNumber2" />
-      <item itemvalue="Application.SingleNumber3" />
-      <item itemvalue="Application.Shuffle" />
+      <item itemvalue="Application.LongestPalindrome" />
+      <item itemvalue="Application.reverseInt" />
+      <item itemvalue="Application.isPalindrome" />
+      <item itemvalue="Application.romanToInt" />
+      <item itemvalue="Application.LongestCommonPrefix" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Shuffle" />
-        <item itemvalue="Application.SingleNumber3" />
-        <item itemvalue="Application.SingleNumber2" />
-        <item itemvalue="Application.SingleNumber" />
-        <item itemvalue="Application.CheckSubarraySum" />
+        <item itemvalue="Application.LongestCommonPrefix" />
+        <item itemvalue="Application.romanToInt" />
+        <item itemvalue="Application.isPalindrome" />
+        <item itemvalue="Application.reverseInt" />
+        <item itemvalue="Application.LongestPalindrome" />
       </list>
     </recent_temporary>
   </component>
@@ -529,12 +532,12 @@
       <workItem from="1551771651493" duration="3272000" />
       <workItem from="1551874811549" duration="7795000" />
       <workItem from="1551935128166" duration="1654000" />
-      <workItem from="1552271442933" duration="19067000" />
+      <workItem from="1552271442933" duration="33574000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79634000" />
+    <option name="totallyTimeSpent" value="94141000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -556,7 +559,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32970297" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.46039605" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.21485148" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32871288" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -666,7 +669,42 @@
           <properties />
           <option name="timeStamp" value="20" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/LongestPalindrome.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/LongestPalindrome.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/reverseInt.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/LongestCommonPrefix.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/reverseInt.java</url>
+          <line>24</line>
+          <properties class="com.qunar.fxd.leetcode.reverseInt" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
       </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -679,83 +717,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/concurrent/Executors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3645">
-          <caret line="284" column="43" selection-start-line="284" selection-start-column="43" selection-end-line="284" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/init/SubClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/concurrent/LinkedBlockingDeque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="76" column="32" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17040">
-          <caret line="1196" column="11" selection-start-line="1196" selection-start-column="11" selection-end-line="1196" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/concurrent/ThreadFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="56" column="60" selection-start-line="56" selection-start-column="50" selection-end-line="56" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/concurrent/ScheduledThreadPoolExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="433" column="7" lean-forward="true" selection-start-line="433" selection-start-column="7" selection-end-line="433" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/ant/BitMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/ant/Singleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/ant/Singleton1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/ant/MinStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="57" column="14" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/ant/test1/Print1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
@@ -1080,10 +1041,107 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="1250" column="22" selection-start-line="1250" selection-start-column="22" selection-end-line="1250" selection-end-column="22" />
+          <folding>
+            <element signature="e#49043#49044#0" expanded="true" />
+            <element signature="e#49082#49083#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/MaxProduct.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="61" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
+        <state relative-caret-position="176">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#110#111#0" expanded="true" />
+            <element signature="e#133#134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/AddTwoNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="19" column="49" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="19" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="1957" column="18" selection-start-line="1957" selection-start-column="18" selection-end-line="1957" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/LongestPalindrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="62" column="38" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/reverseInt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="21" selection-end-column="19" />
+          <folding>
+            <element signature="e#474#475#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/isPalindrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="24" selection-end-column="20" />
+          <folding>
+            <element signature="e#592#593#0" expanded="true" />
+            <element signature="e#643#644#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/romanToInt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="25" selection-end-column="19" />
+          <folding>
+            <element signature="e#1577#1578#0" expanded="true" />
+            <element signature="e#1632#1633#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/LongestCommonPrefix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="22" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/MergeTwoLists.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="573">
+          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
         </state>
       </provider>
     </entry>
