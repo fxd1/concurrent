@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="312bf9f6-97e0-47f7-a4db-b176e7d8e376" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/CombinationSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/GenerateParenthesis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/IntToRoman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/LetterCombinations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/MaxArea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/RotateINt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/RotateRight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/Trap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/CombinationSum2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/DeleteDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/DeleteDuplicates2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -40,7 +35,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="3" />
-          <entry key="java" value="168" />
+          <entry key="java" value="172" />
           <entry key="txt" value="1" />
           <entry key="xml" value="1" />
         </counts>
@@ -48,21 +43,21 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="3" />
-          <entry key="JAVA" value="168" />
+          <entry key="JAVA" value="172" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="24353" />
+          <entry key="java" value="25841" />
           <entry key="txt" value="23" />
           <entry key="xml" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="24353" />
+          <entry key="JAVA" value="25841" />
           <entry key="PLAIN_TEXT" value="23" />
           <entry key="XML" value="20" />
         </counts>
@@ -71,36 +66,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/TopKFrequent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="44" column="47" selection-start-line="44" selection-end-line="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/StrStr.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/MaxArea.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1280">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/RotateRight.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -158,11 +123,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/CombinationSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1530">
-              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+            <state relative-caret-position="277">
+              <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="14" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -171,10 +136,42 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/Trap.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/CombinationSum2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+            <state relative-caret-position="570">
+              <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#448#463#0" expanded="true" />
+                <element signature="e#507#516#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/DeleteDuplicates.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="94">
+              <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="17" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/DeleteDuplicates2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="765">
+              <caret line="30" column="55" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/LongestCommonPrefix.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -209,9 +206,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/qunar/fxd/ant/sort/QuickSort.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qunar/fxd/ant/sort/BubbleSort.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qunar/fxd/ant/sort/MergeSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qunar/fxd/ant/sort/HeapSort1.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qunar/fxd/ant/sort/TopK.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qunar/fxd/ant/niuke/Solution1.java" />
@@ -260,6 +254,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/GenerateParenthesis.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/LetterCombinations.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/CombinationSum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/CombinationSum2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/DeleteDuplicates.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/DeleteDuplicates2.java" />
       </list>
     </option>
   </component>
@@ -404,7 +401,7 @@
     <property name="SearchEverywhereHistoryKey" value="{&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552537381817" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552557052063" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -434,9 +431,35 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CombinationSum">
+  <component name="RunManager" selected="Application.DeleteDuplicates">
     <configuration name="CombinationSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.qunar.fxd.leetcode.CombinationSum" />
+      <module name="common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qunar.fxd.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CombinationSum2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qunar.fxd.leetcode.CombinationSum2" />
+      <module name="common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qunar.fxd.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeleteDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qunar.fxd.leetcode.DeleteDuplicates" />
       <module name="common" />
       <extension name="coverage">
         <pattern>
@@ -461,19 +484,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntToRoman" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qunar.fxd.leetcode.IntToRoman" />
-      <module name="common" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.qunar.fxd.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LetterCombinations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.qunar.fxd.leetcode.LetterCombinations" />
       <module name="common" />
@@ -487,33 +497,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Trap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qunar.fxd.leetcode.Trap" />
-      <module name="common" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.qunar.fxd.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.Trap" />
-      <item itemvalue="Application.IntToRoman" />
       <item itemvalue="Application.GenerateParenthesis" />
       <item itemvalue="Application.LetterCombinations" />
       <item itemvalue="Application.CombinationSum" />
+      <item itemvalue="Application.CombinationSum2" />
+      <item itemvalue="Application.DeleteDuplicates" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeleteDuplicates" />
+        <item itemvalue="Application.CombinationSum2" />
         <item itemvalue="Application.CombinationSum" />
         <item itemvalue="Application.LetterCombinations" />
         <item itemvalue="Application.GenerateParenthesis" />
-        <item itemvalue="Application.IntToRoman" />
-        <item itemvalue="Application.Trap" />
       </list>
     </recent_temporary>
   </component>
@@ -542,7 +539,7 @@
       <workItem from="1551771651493" duration="3272000" />
       <workItem from="1551874811549" duration="7795000" />
       <workItem from="1551935128166" duration="1654000" />
-      <workItem from="1552271442933" duration="66321000" />
+      <workItem from="1552271442933" duration="73058000" />
     </task>
     <task id="LOCAL-00001" summary="fix">
       <created>1552385861008</created>
@@ -572,17 +569,24 @@
       <option name="project" value="LOCAL" />
       <updated>1552453566809</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="commit">
+      <created>1552537391820</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1552537391820</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126888000" />
+    <option name="totallyTimeSpent" value="133625000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17305644" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17305644" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -591,7 +595,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.15346535" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.15346535" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.21485148" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -765,6 +769,12 @@
           <properties />
           <option name="timeStamp" value="39" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/DeleteDuplicates.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/reverseInt.java</url>
           <line>24</line>
@@ -797,31 +807,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/ant/niuke/Solution4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/niuke/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#128#129#0" expanded="true" />
-            <element signature="e#151#152#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/niuke/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/niuke/Solution2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="444">
@@ -1046,13 +1031,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/LongestCommonPrefix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="22" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/MergeTwoLists.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
@@ -1231,11 +1209,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/CombinationSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+        <state relative-caret-position="277">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="14" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/CombinationSum2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#448#463#0" expanded="true" />
+            <element signature="e#507#516#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/DeleteDuplicates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/LongestCommonPrefix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qunar/fxd/leetcode/DeleteDuplicates2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="30" column="55" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="55" />
         </state>
       </provider>
     </entry>
