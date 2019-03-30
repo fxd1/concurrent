@@ -6,6 +6,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
+/**
+ * 先序遍历
+ */
 public class PreorderTraversal {
 
     public List<Integer> preorderTraversalNoRec(TreeNode root) {
@@ -14,17 +17,15 @@ public class PreorderTraversal {
             return list;
         }
         Stack<TreeNode> stack = new Stack<>();
-        stack.push(root);
-        while (!stack.isEmpty()) {
-             TreeNode pop = stack.pop();
-             list.add(pop.val);
-             if (pop.left != null){
-                 stack.push(pop.left);
-             }else {
-                 if (pop.right != null) {
-                     stack.push(pop.right);
-                 }
-             }
+        while (root!= null || !stack.isEmpty()) {
+            if (root != null){
+                list.add(root.val);
+                stack.push(root);
+                root = root.left;
+            }else {
+                root = stack.pop();
+                root = root.right;
+            }
         }
         return list;
     }
