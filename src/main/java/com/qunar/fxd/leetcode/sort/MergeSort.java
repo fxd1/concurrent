@@ -14,6 +14,7 @@ public class MergeSort {
     }
 
 
+
     public static int[] mergingSort(int[] arr){
         if(arr.length <= 1) return arr;
 
