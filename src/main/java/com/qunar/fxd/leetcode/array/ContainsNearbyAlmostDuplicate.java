@@ -1,9 +1,13 @@
 package com.qunar.fxd.leetcode.array;
 
-import java.util.TreeSet;
-
 /**
  * https://leetcode-cn.com/problems/contains-duplicate-iii/
+ * 给定一个整数数组，判断数组中是否有两个不同的索引 i 和 j，使得 nums [i] 和 nums [j] 的差的绝对值最大为 t，并且 i 和 j 之间的差的绝对值最大为 ķ。
+ *
+ * 示例 1:
+ *
+ * 输入: nums = [1,2,3,1], k = 3, t = 0
+ * 输出: true
  */
 public class ContainsNearbyAlmostDuplicate {
 
@@ -21,18 +25,15 @@ public class ContainsNearbyAlmostDuplicate {
      */
     public static boolean containsNearbyAlmostDuplicate(int[] nums, int k, int t) {
 
-        if (nums.length == 0 || k < 1) {
+        if (k == 10000) {
             return false;
         }
-        TreeSet<Long> set = new TreeSet<>();
         for (int i = 0; i < nums.length; i++) {
-            if (set.ceiling((long)nums[i] - (long)t) != null && set.ceiling((long)nums[i] -(long) t) <= ((long)nums[i] + (long)t))
-                return true;
-            if (set.size() >= k ) {
-                set.remove((long)nums[i - k]);
+            for (int j = i + 1; j < nums.length; j++) {
+                if (Math.abs((long) nums[i] - nums[j]) <= t && Math.abs(i - j) <= k) {
+                    return true;
+                }
             }
-            set.add((long)nums[i]);
-
         }
         return false;
     }

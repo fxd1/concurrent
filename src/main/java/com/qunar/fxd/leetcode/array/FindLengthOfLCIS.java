@@ -1,5 +1,7 @@
 package com.qunar.fxd.leetcode.array;
 
+import java.util.Arrays;
+
 /**
  * https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/
  * <p>
@@ -16,9 +18,44 @@ public class FindLengthOfLCIS {
         System.out.println(findLengthOfLCIS(arr));
     }
 
+    public static int findLengthOfLCISDp2(int[] nums) {
+        if (nums.length < 2) {
+            return nums.length;
+        }
+
+        int max = 0;
+        int k=1;
+        for (int i = 1; i < nums.length; i++) {
+            if (nums[i] > nums[i - 1]) {
+                ++k;
+                max = Math.max(max, k);
+            }else{
+                k=1;
+            }
+        }
+        return max;
+
+
+    }
+
+    public static int findLengthOfLCISDp1(int[] nums) {
+
+        if (nums.length <= 0) {
+            return 0;
+        }
+        int dp[] = new int[nums.length];
+        Arrays.fill(dp, 1);
+        int max = 0;
+        for (int i = 1; i < nums.length; i++) {
+            if (nums[i] > nums[i - 1]) {
+                dp[i] += dp[i - 1];
+                max = Math.max(max, dp[i]);
+            }
+        }
+        return max;
+    }
+
     public static int findLengthOfLCIS(int[] nums) {
-
-
         int i = 0;
         int j = 0;
         int max = 0;
@@ -30,7 +67,6 @@ public class FindLengthOfLCIS {
             i = j + 1;
             j = i;
         }
-
         return max;
     }
 

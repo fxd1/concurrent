@@ -24,10 +24,10 @@ public class CheckSubarraySum {
         int dp[] = new int[nums.length];
         dp[0] = nums[0];
         for (int i = 1; i < nums.length; i++) {
-            if (dp[i - 1] % k ==0 || dp[i - 1] + nums[i] % k ==0) {
+            if (dp[i - 1] % k ==0 || (dp[i - 1] + nums[i]) % k ==0) {
                 return true;
             }
-            if (dp[i - 1] + nums[i] % k ==0) {
+            if ((dp[i - 1] + nums[i]) % k ==0) {
                 dp[i] = nums[i];
             } else {
                 dp[i] = nums[i] + dp[i - 1];
