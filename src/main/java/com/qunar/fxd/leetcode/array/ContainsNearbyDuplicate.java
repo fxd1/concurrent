@@ -5,20 +5,19 @@ import java.util.Set;
 
 /**
  * https://leetcode-cn.com/problems/contains-duplicate-ii/
- *
+ * <p>
  * 给定一个整数数组和一个整数 k，判断数组中是否存在两个不同的索引 i 和 j，使得 nums [i] = nums [j]，并且 i 和 j 的差的绝对值最大为 k。
- *
+ * <p>
  * 示例 1:
- *
+ * <p>
  * 输入: nums = [1,2,3,1], k = 3
  * 输出: true
- *
  */
 public class ContainsNearbyDuplicate {
 
     /**
      * 滑动窗口
-     *
+     * <p>
      * 利用hash表作为滑动窗口   ， 窗口的大小为k
      * 遍历数组，
      * 当滑动窗口中包含下一个元素而的时候  说明在k范围之内有重复元素
@@ -31,7 +30,7 @@ public class ContainsNearbyDuplicate {
      */
     public boolean containsNearbyDuplicate1(int[] nums, int k) {
 
-        if (k <=0) {
+        if (k <= 0) {
             return false;
         }
         Set<Integer> hash = new HashSet<>();
@@ -41,7 +40,7 @@ public class ContainsNearbyDuplicate {
             if (hash.contains(nums[i])) {
                 return true;
             } else {
-                if (hash.size() <= k) {
+                if (hash.size() < k) {
                     hash.add(nums[i]);
                 } else {
                     hash.remove(nums[i - k]);
@@ -74,6 +73,7 @@ public class ContainsNearbyDuplicate {
 
         return false;
     }
+
 
 
 }

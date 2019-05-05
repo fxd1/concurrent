@@ -1,5 +1,8 @@
 package com.qunar.fxd.leetcode.array;
 
+/**
+ * 寻找指定的元素的最大的下标
+ */
 public class FindArrayIndex {
 
 
@@ -14,14 +17,14 @@ public class FindArrayIndex {
         int end = srcArray.length - 1;
         int last  =-1;
         while (start <= end) {
-            mid = (end - start) / 2 + start;
+            mid = start+((end -start) >>1);
             if (key < srcArray[mid]) {
                 end = mid - 1;
             } else if (key > srcArray[mid]) {
                 start = mid + 1;
             }else {
                 last = mid;
-                end = mid -1;
+                start = mid +1;
             }
         }
 

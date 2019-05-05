@@ -18,6 +18,7 @@ public class FindLengthOfLCIS {
         System.out.println(findLengthOfLCIS(arr));
     }
 
+
     public static int findLengthOfLCISDp2(int[] nums) {
         if (nums.length < 2) {
             return nums.length;
