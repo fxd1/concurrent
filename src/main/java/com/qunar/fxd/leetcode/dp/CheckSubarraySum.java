@@ -1,7 +1,5 @@
 package com.qunar.fxd.leetcode.dp;
 
-import java.util.Arrays;
-
 /**
  * 输入: [23,2,4,6,7], k = 6
  * 输出: True
@@ -16,25 +14,28 @@ public class CheckSubarraySum {
 
     public static void main(String[] args) {
 
-        int []arr = new int[]{23,2,6,4,7};
+        int[] arr = new int[]{23, 2, 6, 4, 7};
 
         System.out.println(checkSubarraySum(arr, 12));
     }
+
     public static boolean checkSubarraySum(int[] nums, int k) {
-        int dp[] = new int[nums.length];
-        dp[0] = nums[0];
-        for (int i = 1; i < nums.length; i++) {
-            if (dp[i - 1] % k ==0 || (dp[i - 1] + nums[i]) % k ==0) {
-                return true;
-            }
-            if ((dp[i - 1] + nums[i]) % k ==0) {
-                dp[i] = nums[i];
-            } else {
-                dp[i] = nums[i] + dp[i - 1];
+        for (int i = 0; i < nums.length; i++) {
+            int sum = 0;
+            for (int j = i; j < nums.length; j++) {
+                sum += nums[j];
+                if (k != 0 && sum % k == 0) {
+                    if (j - i > 0) {
+                        return true;
+                    }
+                }
+                if (k == 0 && sum == k) {
+                    if (j - i > 0) {
+                        return true;
+                    }
+                }
             }
         }
-
-        System.out.println(Arrays.toString(dp));
         return false;
     }
 

@@ -1,11 +1,14 @@
-package com.qunar.fxd.leetcode;
+package com.qunar.fxd.leetcode.dfs;
 
 import java.util.ArrayList;
 import java.util.List;
 
-/*
-https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/
-
+/**
+ * https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/
+ *
+ * 输入："23"
+ * 输出：["ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"].
+ *
  */
 public class LetterCombinations {
     /**

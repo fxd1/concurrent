@@ -6,12 +6,23 @@ import java.util.HashSet;
 
 /**
  * https://leetcode-cn.com/problems/longest-palindromic-substring/
+ *
+ * 给定一个字符串 s，找到 s 中最长的回文子串。你可以假设 s 的最大长度为 1000。
+ *
+ * 示例 1：
+ *
+ * 输入: "babad"
+ * 输出: "bab"
+ * 注意: "aba" 也是一个有效答案
+ *
+ *
  */
 public class LongestPalindrome {
     public static void main(String[] args) {
         String s = "babad";
         System.out.println(longestPalindrome1(s));
     }
+
 
     /**
      * 动态规划
@@ -20,24 +31,20 @@ public class LongestPalindrome {
      * @return
      */
     public static String longestPalindrome1(String s) {
-        if (Strings.isNullOrEmpty(s)) {
-            return s;
-        }
-        int len = s.length();
-        String arr[] = new String[len];
-
-
-        final char[] chars = s.toCharArray();
-        arr[0] = "";
-        for (int i = 1; i < len; i++) {
-            String temp = arr[i - 1];
-            if (i - temp.length() - 1 >= 0 && (chars[i - temp.length() - 1] == chars[i])) {
-                arr[i] = chars[i - temp.length() - 1] + arr[i - 1] + chars[i];
-            } else {
-                arr[i] = "";
+        int n = s.length();
+        String res = "";
+        boolean[][] dp = new boolean[n][n];
+        for(int i = 0 ;i < n; i++){
+            for (int j=i; j>=0; j--){
+                if (s.charAt(i) == s.charAt(j) && (i - j < 2 || dp[i-1][j+1])) {
+                    dp[i][j] = true;
+                }
+                if (dp[i][j] && i-j+1 > res.length() ){
+                    res = s.substring(j, i+1);
+                }
             }
         }
-        return arr[len - 1];
+        return res;
     }
 
     // 暴力求解

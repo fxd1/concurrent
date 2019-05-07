@@ -1,10 +1,19 @@
-package com.qunar.fxd.leetcode;
+package com.qunar.fxd.leetcode.string;
 
+import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
 
 /**
  * https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/
+ *
+ * 给定一个字符串，请你找出其中不含有重复字符的 最长子串 的长度。
+ *
+ * 示例 1:
+ *
+ * 输入: "abcabcbb"
+ * 输出: 3
+ * 解释: 因为无重复字符的最长子串是 "abc"，所以其长度为 3。
  */
 public class LengthOfLongestSubstring {
 
@@ -30,19 +39,23 @@ public class LengthOfLongestSubstring {
             return s.length();
         }
 
-        List<Character> slide = new LinkedList<>();
+        LinkedList<Character> slide = new LinkedList<>();
+        HashSet<Character> set = new HashSet<>();
         int i=0;
 
         int j=1;
         char[] chars  =s.toCharArray();
         slide.add(chars[0]);
+        set.add(chars[0]);
         int max =0;
         while (j < s.length()){
-            while (slide.contains(chars[j])){
+            while (!slide.isEmpty() && set.contains(chars[j])){
                 i++;
-                ((LinkedList<Character>) slide).poll();
+                 Character c = slide.pollFirst();
+                 set.remove(c);
             }
             slide.add(chars[j]);
+            set.add(chars[j]);
             max  =Math.max(max, j-i +1);
             ++j;
 

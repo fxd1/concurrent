@@ -2,6 +2,15 @@ package com.qunar.fxd.leetcode.array;
 
 /**
  * https://leetcode-cn.com/problems/find-pivot-index/
+ *
+ * 输入:
+ * nums = [1, 7, 3, 6, 5, 6]
+ * 输出: 3
+ * 解释:
+ * 索引3 (nums[3] = 6) 的左侧数之和(1 + 7 + 3 = 11)，与右侧数之和(5 + 6 = 11)相等。
+ * 同时, 3 也是第一个符合要求的中心索引。
+ *
+ *
  */
 public class PivotIndex {
 

@@ -9,41 +9,45 @@ import java.util.Stack;
 
 /**
  * https://leetcode-cn.com/problems/next-greater-node-in-linked-list/
+ *
+ *
+ *
+ * 示例 1：
+ *
+ * 输入：[2,1,5]
+ * 输出：[5,5,0]
+ * 示例 2：
+ *
+ * 输入：[2,7,4,3,5]
+ * 输出：[7,0,5,5,0]
+ * 示例 3：
+ *
+ * 输入：[1,7,5,1,9,2,5,1]
+ * 输出：[7,9,9,9,0,5,0,0]
  */
 public class NextLargerNodes {
     public static final Joiner CONNECT_FLIGHT_JOINER = Joiner.on('/').skipNulls();
 
 
     public int[] nextLargerNodes(ListNode head) {
-
-        if (head == null) {
-            return null;
-        }
-        if (head.next == null) {
-            return new int[]{0};
-        }
         Stack<ListNode> stack = new Stack<>();
-
-        Map<ListNode, Integer> map = new HashMap<>();
-
-        ListNode cur = head;
-        int count = 0;
-        while (head != null) {
-
-            int value = head.val;
-            while (!stack.isEmpty() && stack.peek().val < value) {
-                map.put(stack.pop(), value);
+        Map<ListNode , Integer> hashMap = new HashMap<>();
+        int i = 0;
+        ListNode h = head;
+        while (h != null) {
+            while (!stack.isEmpty()&&stack.peek().val < h.val) {
+                hashMap.put(stack.pop(), h.val);
             }
-            stack.push(head);
-            ++count;
+            stack.push(h);
+            h = h.next;
+            i++;
+        }
+        int[] ints = new int[i];
+        for (int j = 0; j < i; j++) {
+            ints[j] = hashMap.getOrDefault(head,0);
             head = head.next;
         }
-        int res[] = new int[count];
-        for (int i = 0; i < count; i++) {
-
-            res[i] = map.getOrDefault(cur, 0);
-        }
-        return res;
+        return ints;
     }
 
 

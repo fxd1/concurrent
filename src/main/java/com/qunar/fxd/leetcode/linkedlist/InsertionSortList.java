@@ -1,4 +1,6 @@
-package com.qunar.fxd.leetcode;
+package com.qunar.fxd.leetcode.linkedlist;
+
+import com.qunar.fxd.leetcode.ListNode;
 
 /**
  * https://leetcode-cn.com/problems/insertion-sort-list/

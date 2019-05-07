@@ -48,21 +48,6 @@ public class TwoSum2 {
 
     }
 
-    public int[] twoSum(int[] numbers, int target) {
-
-        HashMap<Integer, Integer> map = new HashMap<>();
-
-        for (int i = 0; i < numbers.length; i++) {
-            if (map.containsKey(target - numbers[i])) {
-                return new int[]{map.get(target - numbers[i]), i};
-            } else {
-                map.put(numbers[i], i + 1);
-            }
-        }
-
-
-        return null;
-    }
 
 
 }

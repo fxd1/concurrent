@@ -18,7 +18,10 @@ import com.qunar.fxd.niuke.TreeNode;
  */
 public class SortedArrayToBST {
 
-
+    /**
+     * 有序的数组就是一个中序遍历 左中右的结果， 所以每一次取中间的节点为根节点，左边都小于该节点
+     * 右边都大于该节点
+     */
     public TreeNode sortedArrayToBST(int[] nums) {
         return buildTree(nums, 0, nums.length - 1);
     }

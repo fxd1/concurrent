@@ -1,4 +1,4 @@
-package com.qunar.fxd.leetcode;
+package com.qunar.fxd.leetcode.dfs;
 
 import java.util.Stack;
 
